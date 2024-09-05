@@ -24,6 +24,11 @@ h1 {
   font-family: var(--heading-font-family);
 }
 
+p {
+  font-weight: normal;
+  font-size: 16px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -40,4 +45,14 @@ h1 {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
+.project-description {
+  text-align: center;
 }
