@@ -31,17 +31,23 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/styles.css" />
-    <title>Kirsten Hurlbut</title>
+    <meta
+      name="description"
+      content="Kirsten is a front-end engineer based in Toronto"
+    />
+    <title>Front-end developer - Kirsten Hurlbut</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/logo.png" class="logo" alt="" />
+        <a href="/" title="Homepage">
+          <img src="images/logo.png" class="logo" alt="Kirsten logo" />
+        </a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Kirsten">About</a></li>
+          <li><a href="/work.html" title="Kirsten's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Kirsten">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -50,7 +56,9 @@
       <p>👋 Hello, I'm</p>
       <h1>Kirsten Hurlbut</h1>
       <h2>Front-end Developer Based in Toronto</h2>
-      <a href="#" class="btn btn-branding">Contact Me</a>
+      <a href="/contact.html" class="btn btn-branding" title="Contact me"
+        >Contact Me</a
+      >
     </div>
     <p class="text-center m-5">
       Featured Project which my best projects be choice to show
@@ -69,7 +77,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline mb-4">Launch Project</a>
+            <a href="/work.html" class="btn btn-branding-outline mb-4"
+              >Launch Project</a
+            >
           </div>
         </div>
       </div>
@@ -90,7 +100,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline mb-4">Launch Project</a>
+            <a href="/work.html" class="btn btn-branding-outline mb-4"
+              >Launch Project</a
+            >
           </div>
         </div>
       </div>
@@ -111,7 +123,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline mb-4">Launch Project</a>
+            <a href="/work.html" class="btn btn-branding-outline mb-4"
+              >Launch Project</a
+            >
           </div>
         </div>
       </div>
@@ -122,23 +136,46 @@
             <p class="text-muted">Let's work together!</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-4">Contact Me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-4"
+              title="Contact Kirsten"
+              >Contact Me</a
+            >
           </div>
         </div>
         <div class="email-link d-flex justify-content-center mb-4">
-          <a href="mailto:patricia@gmail.com" class="email-link"
+          <a
+            href="mailto:patricia@gmail.com"
+            class="email-link"
+            title="Email Kirsten"
             >patricia@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.github.com/patricia"
+          <a
+            href="https://www.github.com/patricia"
+            target="_blank"
+            title="GitHub Profile"
             ><i class="fab fa-instagram"></i></a
-          ><a href="https://www.instagram.com/patricia"
+          ><a
+            href="https://www.instagram.com/patricia"
+            target="_blank"
+            title="Instagram Profile"
             ><i class="fa-brands fa-github"></i></a
-          ><a href="https://www.facebook.com/patricia"
+          ><a
+            href="https://www.facebook.com/patricia"
+            target="_blank"
+            title="Facebook Profile"
             ><i class="fa-brands fa-facebook"></i
           ></a>
         </div>
+        <p class="text-center mt-4">
+          This project was coded in SheCodes, and it is
+          <a href="https://github.com/kridtee/portfolio-final" target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
